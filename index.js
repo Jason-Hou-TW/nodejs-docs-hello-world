@@ -3,7 +3,7 @@ const http = require('http');
 const server = http.createServer((request, response) => {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("KSON: Good morning mother fuckers, and node.js 2");
+    response.end("KSON: Good morning mother fuckers!");
 });
 
 const port = process.env.PORT || 1337;
